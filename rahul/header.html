@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
+  <nav class="navbar navbar-top hidden-xs">
+    <div class="container">
+      <ul class="nav navbar-nav pull-left">
+        <li><a href="#"><span class="glyphicon glyphicon-thumbs-up text-black"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-globe text-black"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-pushpin text-black"></span></a></li>
+        <li><a href="#"><span class="text-black">QUESTIONS? CALL: <b>+963000000000</b></span></a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="#" class="text-black">About Us</a></li>
+        <li><a href="#" class="text-black">Contact Us</a></li> 
+      </ul>
+    </div>
+    <div class="dividline"></div>
+  </nav>
+  <nav class="navbar navbar-down">
+    <div class="container">
+      <div class="flex-container">  
+        <div class="navbar-header flex-item">
+          <div class="navbar-brand" href="#">CAREMEDICO</div>
+        </div>
+        <ul class="nav navbar-nav flex-item hidden-xs">
+          <li><a style="color:#0066ff" href="#">Home</a></li>
+          <li><a style="color:#0066ff" href="#">Disease Wiki</a></li> 
+          <li><a style="color:#0066ff" href="#">Blog</a></li> 
+        </ul>
+		<ul class="nav navbar-nav flex-item hidden-xs pull-right">
+          <li><a style="color:#0066ff" href="#" class="">Login</a></li>
+		  <li><a style="color:#0066ff" href="#" class="">Signup</a></li>		  
+        </ul>
+          <div class="dropdown visible-xs pull-right">
+            <button class="btn btn-default dropdown-toggle " type="button" id="dropdownmenu" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-align-justify"></span> 
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Disease Wiki</a></li> 
+              <li><a href="#">Blog</a></li> 
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Login</a></li>
+			  <li><a href="#">Signup</a></li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    </nav>
+  </nav> 
+<header>
+    <img src="banner1.jpg" style="width:100%">
+</header>  
+<script>
+$(window).scroll(function() {
+    if($(this).scrollTop() > 50)
+    {
+        $('.navbar-trans').addClass('afterscroll');
+    } else
+    {
+        $('.navbar-trans').removeClass('afterscroll');
+    }  
+
+});
+</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
