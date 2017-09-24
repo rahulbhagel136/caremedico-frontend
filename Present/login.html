@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+	<!--<![endif]-->
+<head>
+		<meta charset="utf-8">
+		<title>Care Medico | Login</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+		<!-- Font Awesome CSS -->
+		<link href="assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+		<!-- Fontello CSS -->
+		<link href="assets/fonts/fontello/css/fontello.css" rel="stylesheet" type="text/css">
+		<link href="assets/css/animations.css" rel="stylesheet" type="text/css">		
+
+		<!-- the project core CSS file -->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			.logbtn_div {
+				text-align: center;
+			}
+			.logbtn_toggles {
+				width: 100px;
+				height: 100px;
+				border-radius: 100%;
+				background-color: #703a92;
+				color: white;
+				font-weight: bold;
+				font-size: 1.5em;
+				padding: 15px;
+				margin: 10px 20px -10px 20px;
+				box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
+			}
+			.logbtn_toggles:hover {
+				cursor: pointer;
+				box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.5);
+			}
+		</style>
+	</head>
+
+	<body class="no-trans front-page" style="background-image: url({{ asset('images/bg1.jpg')}});background-size: cover;background-repeat: no-repeat;background-attachment: fixed;background-position: center;">
+     <div class="header-container">
+	
+				<!-- header start -->
+				<!-- classes:  -->
+				<!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+				<!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+				<!-- "full-width": mandatory class for the full-width menu layout -->
+				<!-- "centered": mandatory class for the centered logo layout -->
+				<!-- ================ --> 
+				<header class="header  fixed head-color clearfix">
+					
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3">
+								<!-- header-left start -->
+								<!-- ================ -->
+								<div class="header-left clearfix">
+
+									<!-- logo -->
+									<div id="logo" class="logo">
+										<h3><a href="/"><b>CARE MEDICO</b></a></h3>
+									</div>
+									
+								</div>
+								<!-- header-left end -->
+
+							</div>
+							<div class="col-md-9">
+					
+								<!-- header-right start -->
+								<!-- ================ -->
+								<div class="header-right clearfix">
+									
+								<!-- main-navigation start -->
+								<!-- classes: -->
+								<!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+								<!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+								<!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
+								<!-- ================ -->
+								<div class="main-navigation  animated with-dropdown-buttons">
+
+									<!-- navbar start -->
+									<!-- ================ -->
+									<nav class="navbar navbar-default" role="navigation">
+										<div class="container-fluid">
+
+											<!-- Toggle get grouped for better mobile display -->
+											<div class="navbar-header">
+												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+													<span class="sr-only">Toggle navigation</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+												
+											</div>
+
+											<!-- Collect the nav links, forms, and other content for toggling -->
+											<div class="hidden-xs collapse navbar-collapse">
+												<!-- main-menu -->
+												<ul class="nav navbar-nav pull-right">
+
+													<!-- mega-menu start -->													
+													<li class="active mega-menu">
+														<a href="/">Home</a>
+													</li>
+													<li class="mega-menu">
+														<a href="/">Disease Wiki</a>
+													</li>
+													<li class="mega-menu" style="margin-right: 50px;">
+														<a href="/blog">Blog</a>
+													</li>
+													<!-- mega-menu end -->
+												</ul>
+												<!-- main-menu end -->
+												<ul class="nav navbar pull-right nav-menu-btn">
+													<li>
+														<a href="/signup" class="btn radius-50 btn-default-transparent btn-md">Sign Up</a>
+													</li>
+													<li>
+														<a href="/login" class="btn radius-50 btn-default-transparent btn-md">Log In</a>
+													</li>
+													<!-- mega-menu end -->
+												</ul>
+											</div>
+											<div class="visible-xs">
+												<div class="collapse navbar-collapse" id="navbar-collapse-1">
+												<!-- main-menu -->
+												<ul class="nav navbar-nav pull-right">
+
+													<!-- mega-menu start -->													
+													<li class="active mega-menu">
+														<a href="/">Home</a>
+													</li>
+													<li class="mega-menu">
+														<a href="/">Disease Wiki</a>
+													</li>
+													<li class="mega-menu">
+														<a href="/blog">Blog</a>
+													</li>
+													<li class="mega-menu">
+														<a href="/signup">Sign Up</a>
+													</li>
+													<li class="mega-menu">
+														<a href="/login">Log In</a>
+													</li>
+													</ul>
+											</div>
+
+										</div>
+										</div>
+
+									</nav>
+									<!-- navbar end -->
+
+								</div>
+								<!-- main-navigation end -->	
+								</div>
+								<!-- header-right end -->
+					
+							</div>
+						</div>
+					</div>
+					
+				</header>
+				<!-- header end -->
+			</div>
+			<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+			<div style="width: 26%;margin-left: 37%;margin-right: 37%;padding-top: 50px;">
+			<h1><span class="logo-font"><span class="text-default">Care Medico</span></span></h1><br />
+			  <div style="color: red; font-size: 1.2em; text-align: center;"> 
+			  	<?php if(isset($message)){echo $message;} 
+			  		if(isset($email_msg)){echo $email_msg;}
+			  		?>
+			  </div>
+			  <div style="color: green; font-size: 1.2em; text-align: center;"> 
+			  <?php if(isset($_GET['reset']) && $_GET['reset'] == 1){ echo 'Password Reset Successfully  Login with new password!!'; }?>
+			  </div>
+			<div class="widget-container" style="border-radius: 5px;">
+				<div class="heading">
+					<h3 style="color: rgb(5,150,250);margin: 5px;"><b>Login</b></h3><hr />
+					<span style="color: red;"></span>
+					
+					<div id="list">
+						<div class="row">
+							<div class="logbtn_div col-md-6">
+								<div class="logbtn_toggle logbtn_toggles" id="patient"><img src="images/patient.png"></div><br>
+								<span>Patient Login</span>
+							</div> 
+							<div class="logbtn_div col-md-6">
+								<div class="logbtn_toggle logbtn_toggles" id="doctor"><img src="images/doctor.png"></div><br>
+								<span>Doctor Login</span>
+							</div>
+						</div>
+					</div>
+					<div class="form_div" id="patient_form" style="display: none;padding: 0px 20px;">
+						<form action="/login/check" method="POST">
+						<!--{{csrf_field()}}-->
+							<div class="form-group has-feedback">
+								<input type="email" name="email" class="form-control" placeholder="Email" required></input>
+								<i class="fa fa-user form-control-feedback"></i>
+							</div>
+							<div class="form-group has-feedback">
+								<input type="password" name="password" class="form-control" placeholder="Password" required></input>
+								<i class="fa fa-lock form-control-feedback"></i>
+							</div>
+							<div style="display: none;">
+								<input type="text" name="type" value="1">
+							</div>
+							<div class="form-group">
+								&nbsp;<input type="checkbox" name="remember"> &nbsp;Remember Me</input>
+							</div>
+							<button type="submit" name="submit0" class="btn btn-primary form-control">Login as a Patient</button>
+						</form>
+						<a href="#" class="logbtn_toggle" id="doctor">Sign In as Doctor</a>
+					</div>
+					<div class="form_div" id="doctor_form" style="display: none;padding: 0px 20px;">
+						<form action="/login/check" method="post">
+						<!--{{csrf_field()}}-->
+							<div class="form-group has-feedback">
+								<input type="email" name="email" class="form-control" placeholder="Email" required></input>
+								<i class="fa fa-user form-control-feedback"></i>
+							</div>
+							<div class="form-group has-feedback">
+								<input type="password" name="password" class="form-control" placeholder="Password" required></input>
+								<i class="fa fa-lock form-control-feedback"></i>
+							</div>
+							<div style="display: none;">
+								<input type="text" name="type" value="2">
+							</div>
+							<div class="form-group">
+								&nbsp;<input type="checkbox" name="remember"> &nbsp;Remember Me</input>
+							</div>
+							<button type="submit" name="submit0" class="btn btn-primary form-control">Login as a Doctor</button>
+						</form>
+						<a href="#" class="logbtn_toggle" id="patient">Sign In as Patient</a>
+					</div>
+				</div>
+			</div>
+			<p style="font-size: 1.1em;text-align: center;line-height: .7em;"><a href="/login/forgot" style="color: red;">Forgot Password?</a></p>
+			<p style="font-size: 1.1em;text-align: center;line-height: .7em;color: purple;">New User?<a href="/signup">Click Here</a></p>
+		</div>
+
+
+		<script type="text/javascript" src="assets/plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript">
+			$(".logbtn_toggle").click(function() {
+				$("#list, .form_div").hide();
+				id = $(this).attr("id") + "_form";
+				$("#"+id).show();
+			});
+		</script>
+			<!-- header-container end -->
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		</body>
+</html>
